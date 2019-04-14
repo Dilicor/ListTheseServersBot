@@ -1,2 +1,2 @@
-# RustBot
-A Discord bot designed for the Rust game, in Node.JS
+# ListTheseServersBot
+A Discord bot designed for the ListTheseServers web app providing notifications
