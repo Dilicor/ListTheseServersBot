@@ -1,2 +1,4 @@
 **/node_modules/
-./src/settings.js
+**/src/settings.js
+**/dist/
+package-lock.json
