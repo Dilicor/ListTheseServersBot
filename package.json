@@ -1,0 +1,29 @@
+{
+  "name": "ltsb",
+  "version": "1.0.0",
+  "description": "A bot acting as a client for ListTheseServers",
+  "private": true,
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dilicor/ListTheseServersBot.git"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "TheCodingKiwi (Dilicor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dilicor/ListTheseServersBot/issues"
+  },
+  "homepage": "https://github.com/Dilicor/ListTheseServersBot#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "axois": "^1.0.0",
+    "discord.js": "^11.4.2"
+  }
+}
