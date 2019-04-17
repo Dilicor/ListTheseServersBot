@@ -11,3 +11,7 @@ A Discord bot acting as a client for ListTheseServers
 
 ### Starting the bot
 To start the bot, simply execute `npm run start` from within the project directory.
+
+
+### **Note**
+Do not reveal any bot token in settings.js, if you are updating this file temporarily hide the bot token.
