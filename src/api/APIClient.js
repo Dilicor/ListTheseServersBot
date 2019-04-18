@@ -4,7 +4,7 @@ import settings from '../settings';
 
 
 const client = axios.create({
-    baseURL: settings.bot_token,
+    baseURL: settings.api_url,
     json: true
 });
 
