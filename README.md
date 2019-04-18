@@ -16,3 +16,6 @@ To start the bot, simply execute `npm run test` from within the project director
 
 ### **Note**
 Do not reveal any bot token in `settings.js`, if you are updating this file temporarily hide the bot token.
+
+### Warning
+Project is currently going through a restructure. Development has been halted for the time being.
