@@ -17,4 +17,29 @@ class APIClient {
     constructor() {
 
     }
+
+    /**
+     * Returns the status of a given server
+     * @param {number} id 
+     */
+    getServerStatus(id) {
+        return this._fetch('get', `/api/servers/${id}/status`);
+    }
+
+    /**
+     * Makes an API request
+     * @param {string} method HTTP method
+     * @param {string} resource URL
+     * @param {*} payload body
+     */
+    async _fetch(method, resource, payload) {
+        return client({
+            method,
+            url: resource,
+            payload,
+            headers: {}
+        }).then(resp => {
+            return resp.data ? resp.data : [];
+        })
+    }
 }
